@@ -4,6 +4,7 @@ import java.security.NoSuchAlgorithmException;
 import java.security.SecureRandom;
 
 public class CustomAlgorithmGiftBag {
+
     void main() throws NoSuchAlgorithmException {
 
         String[] gifts = {"Toy Car", "Doll", "Puzzle", "Book", "Teddy Bear"};

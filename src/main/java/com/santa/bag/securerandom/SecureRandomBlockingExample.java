@@ -4,13 +4,12 @@ import java.security.NoSuchAlgorithmException;
 import java.security.SecureRandom;
 
 /**
-Min * An example class to test the performance difference between blocking
+ * An example class to test the performance difference between blocking
  * and non-blocking SecureRandom algorithms.
  */
 public class SecureRandomBlockingExample {
 
     void main() {
-
         try {
             // Use a blocking algorithm
             SecureRandom blockingRandom = SecureRandom.getInstance("NativePRNGBlocking");

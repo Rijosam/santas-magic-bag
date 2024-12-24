@@ -3,6 +3,7 @@ package com.santa.bag.securerandom;
 import java.security.SecureRandom;
 
 public class DefaultAlgorithmGiftBag {
+
     void main() {
         String[] gifts = {"Toy Car", "Doll", "Puzzle", "Book", "Teddy Bear"};
 

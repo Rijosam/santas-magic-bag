@@ -4,7 +4,8 @@ import java.security.NoSuchAlgorithmException;
 import java.security.SecureRandom;
 
 /**
- * An example class to test the performance difference between blocking and non-blocking SecureRandom algorithms.
+Min * An example class to test the performance difference between blocking
+ * and non-blocking SecureRandom algorithms.
  */
 public class SecureRandomBlockingExample {
 

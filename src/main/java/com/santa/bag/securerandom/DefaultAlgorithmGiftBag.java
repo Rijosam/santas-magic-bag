@@ -6,7 +6,8 @@ public class DefaultAlgorithmGiftBag {
     void main() {
         String[] gifts = {"Toy Car", "Doll", "Puzzle", "Book", "Teddy Bear"};
 
-        // Create a SecureRandom instance to generate a cryptographically secure random number.
+        // Create a SecureRandom instance to generate a cryptographically
+        // secure random number.
         SecureRandom secureRandom = new SecureRandom();
         System.out.println("Algorithm used: " + secureRandom.getAlgorithm());
 
